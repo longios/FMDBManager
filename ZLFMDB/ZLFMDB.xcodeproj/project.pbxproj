@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BD44221EC7AC700C53F52DA /* Pods_ZLFMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9FF93D20331E05DC5EE663 /* Pods_ZLFMDB.framework */; };
+		300F0D1621CA34EA007B4635 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 300F0D1521CA34EA007B4635 /* UserManager.m */; };
+		300F0D1921CA353A007B4635 /* NewUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 300F0D1821CA353A007B4635 /* NewUser.m */; };
+		30332B5221C34B2A00D9172D /* NSArray+SwiftExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 30332B5121C34B2A00D9172D /* NSArray+SwiftExtension.m */; };
+		30332B5521C358F000D9172D /* ZLFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30332B5421C358F000D9172D /* ZLFMDBManager.m */; };
+		30332B5821C38B7000D9172D /* DefaultDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 30332B5721C38B7000D9172D /* DefaultDatabaseQueue.m */; };
+		30332B5B21C3A7B300D9172D /* NSMutableArray+SwiftExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 30332B5A21C3A7B300D9172D /* NSMutableArray+SwiftExtension.m */; };
+		30404DDC21BE728C0018D854 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 30404DDB21BE728C0018D854 /* TestObj.m */; };
+		30404DDF21BE7DF10018D854 /* NSObject+DBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 30404DDE21BE7DF10018D854 /* NSObject+DBExtension.m */; };
+		30404DE221BE803D0018D854 /* PropertyObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 30404DE121BE803D0018D854 /* PropertyObj.m */; };
+		30404DE521BF9F640018D854 /* DbObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 30404DE421BF9F640018D854 /* DbObj.m */; };
+		5FA4BC4D1FCE410000770700 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4BC4C1FCE410000770700 /* AppDelegate.m */; };
+		5FA4BC501FCE410000770700 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4BC4F1FCE410000770700 /* ViewController.m */; };
+		5FA4BC531FCE410000770700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA4BC511FCE410000770700 /* Main.storyboard */; };
+		5FA4BC551FCE410000770700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA4BC541FCE410000770700 /* Assets.xcassets */; };
+		5FA4BC581FCE410000770700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA4BC561FCE410000770700 /* LaunchScreen.storyboard */; };
+		5FA4BC5B1FCE410000770700 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4BC5A1FCE410000770700 /* main.m */; };
+		5FA4BC651FCE46A100770700 /* history.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FA4BC641FCE46A100770700 /* history.json */; };
+		5FA4BC681FCE4CE900770700 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4BC661FCE4CE900770700 /* User.m */; };
+		5FA4BC791FCE894B00770700 /* NSDictionary+jsonExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4BC781FCE894B00770700 /* NSDictionary+jsonExtension.m */; };
+		5FA4BC7C1FCE895E00770700 /* NSArray+jsonExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA4BC7B1FCE895E00770700 /* NSArray+jsonExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300F0D1421CA34EA007B4635 /* UserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		300F0D1521CA34EA007B4635 /* UserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		300F0D1721CA353A007B4635 /* NewUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewUser.h; sourceTree = "<group>"; };
+		300F0D1821CA353A007B4635 /* NewUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewUser.m; sourceTree = "<group>"; };
+		30332B5021C34B2A00D9172D /* NSArray+SwiftExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SwiftExtension.h"; sourceTree = "<group>"; };
+		30332B5121C34B2A00D9172D /* NSArray+SwiftExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SwiftExtension.m"; sourceTree = "<group>"; };
+		30332B5321C358F000D9172D /* ZLFMDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLFMDBManager.h; sourceTree = "<group>"; };
+		30332B5421C358F000D9172D /* ZLFMDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLFMDBManager.m; sourceTree = "<group>"; };
+		30332B5621C38B7000D9172D /* DefaultDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultDatabaseQueue.h; sourceTree = "<group>"; };
+		30332B5721C38B7000D9172D /* DefaultDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultDatabaseQueue.m; sourceTree = "<group>"; };
+		30332B5921C3A7B300D9172D /* NSMutableArray+SwiftExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SwiftExtension.h"; sourceTree = "<group>"; };
+		30332B5A21C3A7B300D9172D /* NSMutableArray+SwiftExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SwiftExtension.m"; sourceTree = "<group>"; };
+		30404DDA21BE728C0018D854 /* TestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		30404DDB21BE728C0018D854 /* TestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
+		30404DDD21BE7DF10018D854 /* NSObject+DBExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DBExtension.h"; sourceTree = "<group>"; };
+		30404DDE21BE7DF10018D854 /* NSObject+DBExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DBExtension.m"; sourceTree = "<group>"; };
+		30404DE021BE803D0018D854 /* PropertyObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyObj.h; sourceTree = "<group>"; };
+		30404DE121BE803D0018D854 /* PropertyObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyObj.m; sourceTree = "<group>"; };
+		30404DE321BF9F640018D854 /* DbObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DbObj.h; sourceTree = "<group>"; };
+		30404DE421BF9F640018D854 /* DbObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DbObj.m; sourceTree = "<group>"; };
+		4DFAEB3D26511F529F74CA2A /* Pods-ZLFMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLFMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLFMDB/Pods-ZLFMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		5FA4BC481FCE410000770700 /* ZLFMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLFMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA4BC4B1FCE410000770700 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FA4BC4C1FCE410000770700 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FA4BC4E1FCE410000770700 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FA4BC4F1FCE410000770700 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FA4BC521FCE410000770700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FA4BC541FCE410000770700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FA4BC571FCE410000770700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FA4BC591FCE410000770700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA4BC5A1FCE410000770700 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FA4BC611FCE454C00770700 /* ZLFMDB.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLFMDB.pch; sourceTree = "<group>"; };
+		5FA4BC641FCE46A100770700 /* history.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = history.json; sourceTree = "<group>"; };
+		5FA4BC661FCE4CE900770700 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5FA4BC671FCE4CE900770700 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		5FA4BC771FCE894B00770700 /* NSDictionary+jsonExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+jsonExtension.h"; sourceTree = "<group>"; };
+		5FA4BC781FCE894B00770700 /* NSDictionary+jsonExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+jsonExtension.m"; sourceTree = "<group>"; };
+		5FA4BC7A1FCE895E00770700 /* NSArray+jsonExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+jsonExtension.h"; sourceTree = "<group>"; };
+		5FA4BC7B1FCE895E00770700 /* NSArray+jsonExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+jsonExtension.m"; sourceTree = "<group>"; };
+		818A653F5FDD9598E68A4BA7 /* Pods-ZLFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLFMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLFMDB/Pods-ZLFMDB.release.xcconfig"; sourceTree = "<group>"; };
+		CD9FF93D20331E05DC5EE663 /* Pods_ZLFMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLFMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FA4BC451FCE410000770700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD44221EC7AC700C53F52DA /* Pods_ZLFMDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30332B4F21C3490A00D9172D /* newfmdb */ = {
+			isa = PBXGroup;
+			children = (
+				5FA4BC771FCE894B00770700 /* NSDictionary+jsonExtension.h */,
+				5FA4BC781FCE894B00770700 /* NSDictionary+jsonExtension.m */,
+				5FA4BC7A1FCE895E00770700 /* NSArray+jsonExtension.h */,
+				5FA4BC7B1FCE895E00770700 /* NSArray+jsonExtension.m */,
+				30404DDD21BE7DF10018D854 /* NSObject+DBExtension.h */,
+				30404DDE21BE7DF10018D854 /* NSObject+DBExtension.m */,
+				30332B5021C34B2A00D9172D /* NSArray+SwiftExtension.h */,
+				30332B5121C34B2A00D9172D /* NSArray+SwiftExtension.m */,
+				30332B5921C3A7B300D9172D /* NSMutableArray+SwiftExtension.h */,
+				30332B5A21C3A7B300D9172D /* NSMutableArray+SwiftExtension.m */,
+				30404DE321BF9F640018D854 /* DbObj.h */,
+				30404DE421BF9F640018D854 /* DbObj.m */,
+				30332B5321C358F000D9172D /* ZLFMDBManager.h */,
+				30332B5421C358F000D9172D /* ZLFMDBManager.m */,
+				30332B5621C38B7000D9172D /* DefaultDatabaseQueue.h */,
+				30332B5721C38B7000D9172D /* DefaultDatabaseQueue.m */,
+			);
+			path = newfmdb;
+			sourceTree = "<group>";
+		};
+		5FA4BC3F1FCE410000770700 = {
+			isa = PBXGroup;
+			children = (
+				5FA4BC4A1FCE410000770700 /* ZLFMDB */,
+				5FA4BC491FCE410000770700 /* Products */,
+				AC4C647B411F7CAE6ED97326 /* Pods */,
+				BCD6C7A69D6EDEA6DC931D57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FA4BC491FCE410000770700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA4BC481FCE410000770700 /* ZLFMDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA4BC4A1FCE410000770700 /* ZLFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				30332B4F21C3490A00D9172D /* newfmdb */,
+				5FA4BC4B1FCE410000770700 /* AppDelegate.h */,
+				5FA4BC4C1FCE410000770700 /* AppDelegate.m */,
+				5FA4BC4E1FCE410000770700 /* ViewController.h */,
+				5FA4BC4F1FCE410000770700 /* ViewController.m */,
+				300F0D1421CA34EA007B4635 /* UserManager.h */,
+				300F0D1521CA34EA007B4635 /* UserManager.m */,
+				300F0D1721CA353A007B4635 /* NewUser.h */,
+				300F0D1821CA353A007B4635 /* NewUser.m */,
+				5FA4BC671FCE4CE900770700 /* User.h */,
+				5FA4BC661FCE4CE900770700 /* User.m */,
+				5FA4BC511FCE410000770700 /* Main.storyboard */,
+				5FA4BC541FCE410000770700 /* Assets.xcassets */,
+				5FA4BC561FCE410000770700 /* LaunchScreen.storyboard */,
+				5FA4BC591FCE410000770700 /* Info.plist */,
+				5FA4BC5A1FCE410000770700 /* main.m */,
+				5FA4BC611FCE454C00770700 /* ZLFMDB.pch */,
+				5FA4BC641FCE46A100770700 /* history.json */,
+				30404DDA21BE728C0018D854 /* TestObj.h */,
+				30404DDB21BE728C0018D854 /* TestObj.m */,
+				30404DE021BE803D0018D854 /* PropertyObj.h */,
+				30404DE121BE803D0018D854 /* PropertyObj.m */,
+			);
+			path = ZLFMDB;
+			sourceTree = "<group>";
+		};
+		AC4C647B411F7CAE6ED97326 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DFAEB3D26511F529F74CA2A /* Pods-ZLFMDB.debug.xcconfig */,
+				818A653F5FDD9598E68A4BA7 /* Pods-ZLFMDB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCD6C7A69D6EDEA6DC931D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD9FF93D20331E05DC5EE663 /* Pods_ZLFMDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FA4BC471FCE410000770700 /* ZLFMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA4BC5E1FCE410000770700 /* Build configuration list for PBXNativeTarget "ZLFMDB" */;
+			buildPhases = (
+				B39E6E89A865A965E7ECF5A6 /* [CP] Check Pods Manifest.lock */,
+				5FA4BC441FCE410000770700 /* Sources */,
+				5FA4BC451FCE410000770700 /* Frameworks */,
+				5FA4BC461FCE410000770700 /* Resources */,
+				532832EFF35E4E999A6CFE9D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLFMDB;
+			productName = ZLFMDB;
+			productReference = 5FA4BC481FCE410000770700 /* ZLFMDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FA4BC401FCE410000770700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = heimavista;
+				TargetAttributes = {
+					5FA4BC471FCE410000770700 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5FA4BC431FCE410000770700 /* Build configuration list for PBXProject "ZLFMDB" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FA4BC3F1FCE410000770700;
+			productRefGroup = 5FA4BC491FCE410000770700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FA4BC471FCE410000770700 /* ZLFMDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FA4BC461FCE410000770700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA4BC581FCE410000770700 /* LaunchScreen.storyboard in Resources */,
+				5FA4BC651FCE46A100770700 /* history.json in Resources */,
+				5FA4BC551FCE410000770700 /* Assets.xcassets in Resources */,
+				5FA4BC531FCE410000770700 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		532832EFF35E4E999A6CFE9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZLFMDB/Pods-ZLFMDB-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLFMDB/Pods-ZLFMDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39E6E89A865A965E7ECF5A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLFMDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FA4BC441FCE410000770700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA4BC7C1FCE895E00770700 /* NSArray+jsonExtension.m in Sources */,
+				30332B5821C38B7000D9172D /* DefaultDatabaseQueue.m in Sources */,
+				5FA4BC681FCE4CE900770700 /* User.m in Sources */,
+				5FA4BC501FCE410000770700 /* ViewController.m in Sources */,
+				30332B5521C358F000D9172D /* ZLFMDBManager.m in Sources */,
+				30404DE221BE803D0018D854 /* PropertyObj.m in Sources */,
+				30332B5B21C3A7B300D9172D /* NSMutableArray+SwiftExtension.m in Sources */,
+				300F0D1621CA34EA007B4635 /* UserManager.m in Sources */,
+				30332B5221C34B2A00D9172D /* NSArray+SwiftExtension.m in Sources */,
+				5FA4BC5B1FCE410000770700 /* main.m in Sources */,
+				30404DDF21BE7DF10018D854 /* NSObject+DBExtension.m in Sources */,
+				5FA4BC791FCE894B00770700 /* NSDictionary+jsonExtension.m in Sources */,
+				300F0D1921CA353A007B4635 /* NewUser.m in Sources */,
+				5FA4BC4D1FCE410000770700 /* AppDelegate.m in Sources */,
+				30404DE521BF9F640018D854 /* DbObj.m in Sources */,
+				30404DDC21BE728C0018D854 /* TestObj.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FA4BC511FCE410000770700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA4BC521FCE410000770700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FA4BC561FCE410000770700 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA4BC571FCE410000770700 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FA4BC5C1FCE410000770700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FA4BC5D1FCE410000770700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FA4BC5F1FCE410000770700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFAEB3D26511F529F74CA2A /* Pods-ZLFMDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B3Z5L9KTV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/ZLFMDB.pch";
+				INFOPLIST_FILE = ZLFMDB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heimavista.ZLFMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		5FA4BC601FCE410000770700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818A653F5FDD9598E68A4BA7 /* Pods-ZLFMDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B3Z5L9KTV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/ZLFMDB.pch";
+				INFOPLIST_FILE = ZLFMDB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heimavista.ZLFMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FA4BC431FCE410000770700 /* Build configuration list for PBXProject "ZLFMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA4BC5C1FCE410000770700 /* Debug */,
+				5FA4BC5D1FCE410000770700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA4BC5E1FCE410000770700 /* Build configuration list for PBXNativeTarget "ZLFMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA4BC5F1FCE410000770700 /* Debug */,
+				5FA4BC601FCE410000770700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FA4BC401FCE410000770700 /* Project object */;
+}

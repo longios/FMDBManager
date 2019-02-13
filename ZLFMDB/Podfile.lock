@@ -1,0 +1,22 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FMDB
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+    - YYModel
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 4c5da907e3ceff7b0f58a6caab44c870606de8de
+
+COCOAPODS: 1.5.0

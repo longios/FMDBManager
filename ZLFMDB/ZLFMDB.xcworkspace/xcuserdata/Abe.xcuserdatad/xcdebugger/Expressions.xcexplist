@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[_YYModelPropertyMeta metaWithClassInfo:propertyInfo:generic:]:NSObject+YYModel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "propertyInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[YYClassPropertyInfo initWithProperty:]:YYClassInfo.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "attrs[i].name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__23-[UserDB getstuwithID:]_block_invoke:UserDB.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[_YYModelMeta initWithClass:]:NSObject+YYModel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FMDBManager _saveResultWithEnumSet:]:FMDBManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FMDBManager changeResultsetToDicArySet:]:FMDBManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.resultAry">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
